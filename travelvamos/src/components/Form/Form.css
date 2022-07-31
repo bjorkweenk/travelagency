@@ -1,0 +1,66 @@
+.Form {
+    max-width: 1400px;
+    height: 600px;
+    background-image:url(../../../public/mountains.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -20px;
+    color: white;
+    
+}
+
+.txt {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    
+}
+
+.txt1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    padding-bottom: 30px;
+}
+
+.form {
+    display: inline-flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+    padding: 0px 20px;
+    background-color: white;
+    margin-left: 40px;
+   margin-right: 40px;
+   height: 150px;
+   width: 1000px;
+}
+
+.Nav-Items1 {
+    list-style-type: none;
+    color: black; 
+    margin-top: 20px;
+    padding: 0px 20px; 
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.btn-trip {
+    color: black ;
+    background-color: rgb(237, 217, 31);
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.vl {
+    border-left: 3px solid rgb(237, 217, 31);
+    height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }

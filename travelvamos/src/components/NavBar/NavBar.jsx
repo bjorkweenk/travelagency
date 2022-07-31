@@ -1,14 +1,22 @@
 import React, { Component } from 'react';
 import "./NavBar.css"
+import {Media} from 'react-breakpoints'
+import Navbars from '../Navbars/Navbars';
 
 class NavBar extends Component {
     render() {
         return (
-            <div>
-                <h1> Navbar</h1>
-            </div>
-        );
+            <Media>
+            {({ breakpoints, currentBreakpoint }) =>
+              breakpoints[currentBreakpoint] > breakpoints.desktop ? (
+                <Navbars /> 
+              ) : (
+                <Navbars /> 
+              )
+            }
+          </Media>
+        )
+      }
     }
-}
 
 export default NavBar;

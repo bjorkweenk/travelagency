@@ -13,18 +13,17 @@ class Home extends Component {
     render() {
         return (
             <>
-            <div>
+        <div>        
             <Form />
             <Status />
             <Paragraph />
             <ThemesTravel />
            <Brands />
-           <Process /> 
-           <Travelers /> 
-           </div>
+           <Process />  
+           <Travelers />  
+           </div>  
            </>
-
-        );
+              )
     }
 }
 

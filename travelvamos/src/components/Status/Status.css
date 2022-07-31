@@ -1,0 +1,27 @@
+.Status {
+    max-width: 1400;
+}
+
+.StatusList {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    width: 100%;
+    background-color: rgb(4, 148, 251);
+    height: 180px;
+}
+
+.Status-Items {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    align-items: center;
+    color: white; 
+    padding: 0px 20px; 
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}

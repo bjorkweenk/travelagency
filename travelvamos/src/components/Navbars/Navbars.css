@@ -1,0 +1,48 @@
+.Navbars {
+    max-width: 1400px;
+}
+
+.Navbar {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    width: 100%;
+   
+}
+
+.NavbarList {
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: stretch;
+	align-content: stretch;
+    background-color: rgb(4, 148, 251);
+    width: 100%;
+
+}
+
+.Nav-Items {
+    list-style-type: none;
+    color: white; 
+    margin-top: 20px;
+    padding: 0px 20px; 
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.person {
+    border-radius: 40%;
+}
+
+.Btn {
+    color: black ;
+    background-color: rgb(237, 217, 31);
+    border:4px solid rgb(10, 45, 70);
+    border-radius: 40%;
+    padding: 10px;
+}
